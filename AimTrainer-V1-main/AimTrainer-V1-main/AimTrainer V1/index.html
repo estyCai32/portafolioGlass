@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim Trainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+
+        <div class="info">
+            <div class="info-puntos"><span id="acertado"></span> / <span id="errados"></span></div>
+            <div class="info-time"> % <span id="precision"></span></div>
+            <div class="cronometro">00:<span id="cronometro-restrante">30</span></div>
+        </div>
+
+        <div class="table">
+            <div class="puntero"></div>
+        </div>
+    </div>
+
+
+    <div class="banner-container">
+        <div class="banner-resultados">
+            <div class="pres">Tuviste una precision del: <span id="banner-precision"></span></div>
+            <div class="aciertos">Acertaste: <span id="banner-aciertos"></span>    De: <span id="banner-errados"></span></div>
+            <button class="boton-reintentar">VOLVER A INTENTAR</button>
+        </div>
+    </div>
+    
+    <audio src="disparorecortado.wav" controls id="disparo-sonido"></audio>
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
