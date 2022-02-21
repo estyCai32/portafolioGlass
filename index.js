@@ -66,7 +66,7 @@ function renderSobreMi() {
     dashboardCards.appendChild(card1.crearDivCard());
 
 
-    let txtExperiencia = "<h3> Circo Studio - Polo Informatico Unlam </h3><p> Trabajo en condicion de becario desde <b>enero 2022</b> en donde me estan capacitando en tecnologias como C#, ASP.NET y herramientas de Microsoft.</p>";
+    let txtExperiencia = "<h3> Circo Studio - Polo Informatico Unlam </h3><p> Trabajo en condicion de becario desde <b>enero 2022</b> en donde me estan capacitando en tecnologias como Angular y herramientas de Microsoft.</p>";
     let card3 = new Card(null, "EXPERIENCIA", txtExperiencia);
     dashboardCards.appendChild(card3.crearDivCard());
 
